@@ -1,4 +1,46 @@
 /* clases que permiten controlar el estilo para el context menu mostrado que contienen 7 o mas items*/
+*{padding: 0;
+    margin-left: 0;
+    box-sizing:  border-box  ;
+}
+
+body {
+    background-color:rgb(231, 136, 209); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color:  rgb(240, 236, 235);
+width: 100%;
+clear: both ;
+content: '';
+display: table;
+    
+}
+
+img {
+width: 10px;
+height: 50px;
+float: center;
+padding: 8px;
+}
+
+nav{
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    padding:  25px 0;
+    float: left;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #e320e3;
+    font-weight: bolder;
+
+}
 
 
 contextMenuPlugin2 {
@@ -16,7 +58,7 @@ contextMenuPlugin2 {
     height: 210px;
     overflow-y: scroll;
     overflow-x: hidden;
-    background-color: #f7f3f7;
+    background-color: #f61bf6;
     border: 2px solid #f7f7f7;
     outline: 1px solid #949694;
 }
@@ -79,7 +121,7 @@ contextMenuPlugin2 {
 }
 
 .contextMenuPlugin2>li.divider {
-    border-top: 1px solid #e7e3e7;
+    border-top: 1px solid #eeb3ee;
     border-bottom: 1px solid #ffffff;
     height: 0;
     padding: 0;
@@ -106,12 +148,12 @@ contextMenuPlugin2 {
     position: relative;
     cursor: default;
     padding: 3px 3px 3px 3px;
-    color: #ffffff;
+    color: #f1b9db;
 }
 
 .contextMenuPlugin2>.gutterLine {
     position: absolute;
-    border-left: 1px solid #e7e3e7;
+    border-left: 1px solid #f264f2;
     border-right: 1px solid #ffffff;
     width: 0;
     top: 0;
@@ -267,7 +309,7 @@ div.gallery a {
 /*estilo para elemento que contiene los botones pdf,text,reforma*/
 
 div.desc {
-    background-color:#e4a1ca;
+    background-color:#e91f9b;
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
@@ -322,7 +364,7 @@ div.desc {
 }
 
 .btnPdf:before {
-  background-color: #ffffff; 
+  background-color: #db1919; 
     color: black; 
     border: 2px solid #008CBA;
 }
@@ -371,7 +413,19 @@ div.desc {
 }
 .titulos_vigentes1 {
     background-color:#e4a1ca;
-    color: white;
+    color: rgb(249, 244, 244);
+    height: 100px;
+    font-size: 2.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;  
+ }	
+ .titulos_vigentes2 {
+    background-color:#d01488;
+    color: rgb(232, 16, 120);
     height: 120px;
     font-size: 2.2em;
     display: flex;
